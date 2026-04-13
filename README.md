@@ -1,40 +1,32 @@
 <div align="center">
 
-<!-- Typing SVG -->
-<a href="https://github.com/riazbd">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Hi+there%2C+I'm+Riaz+%F0%9F%91%8B;Full-Stack+Software+Engineer;React+%E2%80%A2+Next.js+%E2%80%A2+Laravel+%E2%80%A2+Node.js;Building+SaaS+Products+that+Ship+%F0%9F%9A%80" alt="Typing SVG" />
-</a>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Md.+Nur+Uddin+Riaz;Full-Stack+Software+Engineer;React+%2F+Next.js+%2F+Laravel+%2F+Node.js" alt="Typing SVG" />
 
 <br/>
 
-<p>
-  <a href="mailto:nuruddinriaz5@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://github.com/riazbd"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
-  <a href="https://pepsbd.com"><img src="https://img.shields.io/badge/Live%20Product-pepsbd.com-0ea5e9?style=for-the-badge&logo=vercel&logoColor=white"/></a>
-  <img src="https://komarev.com/ghpvc/?username=riazbd&style=for-the-badge&color=0ea5e9&label=Profile+Views"/>
-</p>
+<a href="mailto:nuruddinriaz5@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="https://pepsbd.com"><img src="https://img.shields.io/badge/Live%20Product-pepsbd.com-0ea5e9?style=for-the-badge&logo=vercel&logoColor=white"/></a>
+<img src="https://komarev.com/ghpvc/?username=riazbd&style=for-the-badge&color=0ea5e9&label=Profile+Views"/>
 
 </div>
 
 ---
 
-## 👨‍💻 About Me
+## About
 
-I'm a **Full-Stack Software Engineer** based in **Dhaka, Bangladesh** with **4+ years** of experience building and shipping scalable web applications across Bangladesh, India, and the Netherlands.
+Full-Stack Software Engineer based in Dhaka, Bangladesh with 4+ years of professional experience across Bangladesh, India, and the Netherlands.
 
-I don't just write code — I **architect products**. I'm the sole developer behind **[PEPS BD](https://pepsbd.com)**, a live B2B SaaS platform for Anti-Money Laundering (AML) and Politically Exposed Person (PEP) compliance screening, actively subscribed to by banks and financial institutions in Bangladesh. That means I've taken a product from zero — database schema, backend logic, multi-tenant architecture, access control, front-end UI, deployment — all the way to a revenue-generating RegTech platform.
+Most of my work has been product-focused rather than open-source — I am the sole developer of [PEPS BD](https://pepsbd.com), a live B2B SaaS platform for AML and PEP compliance screening used by banks and financial institutions in Bangladesh. I took it from an empty database to a subscription-based, multi-tenant product running in production — handling architecture, backend, frontend, deployment, and ongoing maintenance on my own.
 
-```text
-📍 Dhaka, Bangladesh
-🛡️  Sole developer of PEPS BD — live AML & PEP Compliance SaaS used by banks
-🌱 Always learning — currently deepening TypeScript and system design
-💼 Open to new opportunities — remote or on-site
-⚡ I care deeply about performance, clean architecture, and shipping things that work
+```
+Location         Dhaka, Bangladesh
+Availability     Open to new opportunities — remote or on-site
+Currently        Deepening TypeScript and system design
 ```
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 **Frontend**
 
@@ -64,36 +56,35 @@ I don't just write code — I **architect products**. I'm the sole developer beh
 
 ---
 
-## 🚀 Featured Projects
+## Projects
 
-### 🛡️ [PEPS BD](https://pepsbd.com) — AML & PEP Compliance SaaS
-> **Laravel · MySQL · Multi-Tenant SaaS · ACL · RegTech**
+### [PEPS BD](https://pepsbd.com) — AML & PEP Compliance SaaS
+`Laravel` `MySQL` `Multi-Tenant` `ACL` `RegTech`
 
-A **live, revenue-generating** B2B SaaS platform used by banks and financial institutions in Bangladesh for AML compliance screening. Built and deployed entirely solo.
+A live B2B SaaS platform subscribed to by banks and financial institutions in Bangladesh for Anti-Money Laundering and Politically Exposed Person screening. Built and maintained entirely solo.
 
-- ✅ Three-tier multi-tenant architecture (super admin → organisation → end user)
-- ✅ Fine-grained ACL system with per-user permission management
-- ✅ Full case management workflow: search, bookmark, assign, review, flag
-- ✅ PEP database with linked news & media exposure sources
-- ✅ End-to-end ownership: schema design → deployment → maintenance
-
----
-
-### 🎓 Globex Education — CRM / HRM / ERP System
-> **Laravel · MySQL · Meta Instant Form API · SMS Integration · RBAC**
-
-A comprehensive student lifecycle management platform for a visa consultancy, handling everything from ad lead capture to visa approval tracking — with granular role-based access control and automated SMS workflows.
+- Three-tier multi-tenant architecture: super admin, organisation, and end-user layers
+- Fine-grained ACL allowing bank admins to define permissions per user and role
+- Full case management: search, bookmark, assign, status tracking
+- PEP profiles linked to news and media exposure sources for compliance context
 
 ---
 
-### 🛒 [Toteddy Shop](https://toteddyshop.com) — E-Commerce Platform
-> **Laravel · Pathao Courier API · Payment Gateway · Affiliate System**
+### Globex Education — CRM / HRM / ERP
+`Laravel` `MySQL` `Meta Instant Form API` `SMS Integration` `RBAC`
 
-Ongoing development for a live Bangladeshi e-commerce platform with 2 physical retail branches. Integrated Pathao Courier for automated logistics, webhook-driven payment confirmation, and performance optimisations across the checkout pipeline.
+End-to-end student lifecycle management system for a visa and overseas education consultancy. Handles lead capture from Facebook and Instagram ad campaigns through to visa approval tracking, with automated SMS notifications and role-based access for admins, counsellors, and agents.
 
 ---
 
-## 📊 GitHub Stats
+### [Toteddy Shop](https://toteddyshop.com) — E-Commerce Platform
+`Laravel` `Pathao Courier API` `Payment Gateway` `Affiliate System`
+
+Ongoing development for a live Bangladeshi e-commerce platform with two physical retail branches in Dhaka. Integrated Pathao Courier for automated logistics, webhook-driven payment confirmation, and performance improvements across product listing and checkout flows.
+
+---
+
+## GitHub Stats
 
 <div align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=riazbd&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=1800" />
@@ -106,60 +97,39 @@ Ongoing development for a live Bangladeshi e-commerce platform with 2 physical r
 
 ---
 
-## 🏭 Why My Public GitHub Doesn't Tell the Full Story
+## A Note on Public Activity
 
-> Most of my real-world work lives outside of public GitHub — and here's why:
+Most of my work over the last 4 years has been on private repositories — company codebases, client projects, and proprietary products that cannot be open-sourced. This is fairly standard for engineers working inside product companies and agencies.
 
-Over **4+ years**, the majority of my engineering work has been on **private company repositories**, **client codebases**, and **proprietary SaaS products** — none of which can be open-sourced. This is the reality for most professional software engineers working in product companies and agencies.
+The public repos here are experiments, learning projects, and old work. The production systems I have built — a multi-tenant SaaS, a full ERP, a live e-commerce platform — all sit behind private repos or are deployed as closed products.
 
-Here's where the actual work happened:
-
-| Where | What |
-|-------|------|
-| 🏢 **Private org repos** | Day-to-day feature development, code reviews, CI/CD pipelines across multiple companies |
-| 🛡️ **PEPS BD** | Entire codebase is proprietary — it's a live, bank-facing compliance product |
-| 🎓 **Globex Education ERP** | Private client project — full CRM, HRM, and lead management system |
-| 🛒 **Toteddy Shop** | Private client repo — live e-commerce platform with courier and payment integrations |
-
-**335 contributions since 2019** are recorded on my profile — but they cannot show the architecture decisions, production incidents resolved, performance wins, or the full-stack systems I've owned end-to-end.
-
-> 💡 *A developer's worth is not measured in green squares. It's measured in systems that run in production.*
+If you want to see how I approach a problem, feel free to reach out. I am happy to walk through past work in detail.
 
 ---
 
-## 📈 What I Bring to a Team
+## Experience
 
-| Impact | What I Did |
-|--------|-----------|
-| ⚡ **40% faster page loads** | Dynamic imports, lazy loading, code splitting, Next.js Image optimisation |
-| 🐛 **30% fewer production bugs** | Strengthened QA processes and pre-release checklists |
-| 🔗 **35% faster API responses** | Resolved N+1 queries and added missing DB indexes |
-| 👥 **25% better code quality** | Structured code reviews and mentorship for junior developers |
-| 🔧 **20% faster feature delivery** | Reusable component libraries and enforced coding standards |
-
----
-
-## 💼 Work Experience Highlights
-
-```
-🏢 MHS Planet               Jan 2025 – Present   Software Engineer         Dhaka, BD
-🌞 Solruf India             Oct 2023 – Nov 2024  Software Engineer         Remote, IN
-🇳🇱 Dream Driver IT          Nov 2022 – Nov 2023  Full-Stack Developer      Remote, NL
-🏙️  Shiny Gleam Softwares    Sep 2021 – Oct 2022  Junior Software Engineer  Dhaka, BD
-```
+| Period | Role | Company |
+|--------|------|---------|
+| Jan 2025 – Present | Software Engineer | MHS Planet, Dhaka |
+| Oct 2023 – Nov 2024 | Software Engineer | Solruf India (Remote) |
+| Nov 2022 – Nov 2023 | Full-Stack Developer | Dream Driver IT Solutions, Netherlands (Remote) |
+| Sep 2021 – Oct 2022 | Junior Software Engineer | Shiny Gleam Softwares, Dhaka |
 
 ---
 
-## 📬 Get in Touch
+## Measurable Impact
 
-I'm always open to interesting projects, product collaborations, or full-time opportunities.
+| Result | How |
+|--------|-----|
+| 40% reduction in page load time | Dynamic imports, lazy loading, code splitting, Next.js Image optimisation |
+| 30% fewer production UI bugs | Improved QA processes and pre-release checklists |
+| 35% faster API response times | Resolved N+1 queries, added missing database indexes |
+| 25% improvement in team code quality | Structured code reviews over two quarters |
+| 20% faster front-end feature delivery | Reusable component libraries and documented coding standards |
 
-<div align="center">
+---
 
-📧 **nuruddinriaz5@gmail.com** &nbsp;|&nbsp; 📞 **+880 1521 323426** &nbsp;|&nbsp; 📍 **Dhaka, Bangladesh**
+## Contact
 
-<br/>
-
-*"I don't just ship features — I own outcomes."*
-
-</div>
+nuruddinriaz5@gmail.com &nbsp;|&nbsp; +880 1521 323426 &nbsp;|&nbsp; Dhaka, Bangladesh
