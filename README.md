@@ -96,13 +96,34 @@ Ongoing development for a live Bangladeshi e-commerce platform with 2 physical r
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=riazbd&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=riazbd&layout=compact&theme=tokyonight&hide_border=true" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=riazbd&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=1800" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=riazbd&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=riazbd&theme=tokyonight&hide_border=true" />
+  <img src="https://streak-stats.demolab.com?user=riazbd&theme=tokyonight&hide_border=true" />
 </div>
+
+---
+
+## 🏭 Why My Public GitHub Doesn't Tell the Full Story
+
+> Most of my real-world work lives outside of public GitHub — and here's why:
+
+Over **4+ years**, the majority of my engineering work has been on **private company repositories**, **client codebases**, and **proprietary SaaS products** — none of which can be open-sourced. This is the reality for most professional software engineers working in product companies and agencies.
+
+Here's where the actual work happened:
+
+| Where | What |
+|-------|------|
+| 🏢 **Private org repos** | Day-to-day feature development, code reviews, CI/CD pipelines across multiple companies |
+| 🛡️ **PEPS BD** | Entire codebase is proprietary — it's a live, bank-facing compliance product |
+| 🎓 **Globex Education ERP** | Private client project — full CRM, HRM, and lead management system |
+| 🛒 **Toteddy Shop** | Private client repo — live e-commerce platform with courier and payment integrations |
+
+**335 contributions since 2019** are recorded on my profile — but they cannot show the architecture decisions, production incidents resolved, performance wins, or the full-stack systems I've owned end-to-end.
+
+> 💡 *A developer's worth is not measured in green squares. It's measured in systems that run in production.*
 
 ---
 
