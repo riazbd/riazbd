@@ -87,11 +87,6 @@ Ongoing development for a live Bangladeshi e-commerce platform with two physical
 ## GitHub Stats
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=riazbd&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=1800" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=riazbd&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800" />
-</div>
-
-<div align="center">
   <img src="https://streak-stats.demolab.com?user=riazbd&theme=tokyonight&hide_border=true" />
 </div>
 
