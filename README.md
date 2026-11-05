@@ -131,4 +131,4 @@ the real answer, and I am glad to walk through any of this in detail.
 
 **Open to freelance work — one project at a time — and to the right full-time role.**
 
-[riaznur.com](https://riaznur.com) · hello@riaznur.com · nuruddinriaz5@gmail.com · +880 1521 323426 · Dhaka, Bangladesh
+[riaznur.com](https://riaznur.com) · hello@riaznur.com · nuruddinriaz5@gmail.com · Dhaka, Bangladesh
