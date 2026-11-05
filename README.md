@@ -1,155 +1,134 @@
-<div align="center">
+# Nur Uddin Riaz
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Nur+Uddin+Riaz;Full-Stack+Software+Engineer;React+%2F+Next.js+%2F+Laravel+%2F+Node.js" alt="Typing SVG" />
+**Full-stack developer, Dhaka — [riaznur.com](https://riaznur.com)**
 
-<br/>
+[![Portfolio](https://img.shields.io/badge/riaznur.com-7c3aed?style=flat-square&logo=firefox&logoColor=white)](https://riaznur.com)
+[![Email](https://img.shields.io/badge/hello@riaznur.com-111827?style=flat-square&logo=gmail&logoColor=white)](mailto:hello@riaznur.com)
 
-<a href="mailto:nuruddinriaz5@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<a href="https://riaznur.com"><img src="https://img.shields.io/badge/Portfolio-riaznur.com-7c3aed?style=for-the-badge&logo=firefox&logoColor=white"/></a>
-<a href="https://pepsbd.com"><img src="https://img.shields.io/badge/Live%20Product-pepsbd.com-0ea5e9?style=for-the-badge&logo=vercel&logoColor=white"/></a>
-<img src="https://komarev.com/ghpvc/?username=riazbd&style=for-the-badge&color=0ea5e9&label=Profile+Views"/>
+I build the web applications businesses actually run on — the ones with real rules inside
+them, where being wrong has consequences that are not cosmetic. Five years of it: a
+compliance platform banks screen customers with, a CRM that follows a student from a first
+enquiry to a visa approval, a resort that cannot sell the same room twice, a mail server
+that sends its own campaigns.
 
-</div>
-
----
-
-## About
-
-Full-Stack Software Engineer based in Dhaka, Bangladesh with 5+ years of professional experience across Bangladesh, India, and the Netherlands.
-
-Most of my work has been product-focused rather than open-source — I am the sole developer of [PEPS BD](https://pepsbd.com), a live B2B SaaS platform for AML and PEP compliance screening used by banks and financial institutions in Bangladesh. I took it from an empty database to a subscription-based, multi-tenant product running in production — handling architecture, backend, frontend, deployment, and ongoing maintenance on my own.
-
-Longer write-ups of this work, with the decisions and the numbers, are at **[riaznur.com](https://riaznur.com)**.
-
-```
-Location         Dhaka, Bangladesh
-Availability     Open to new opportunities — remote or on-site
-Portfolio        https://riaznur.com
-Currently        Deepening TypeScript and system design
-```
+Most of that work is built for Bangladesh, which is its own engineering problem: prices in
+Taka, payments through bKash and Nagad, interfaces that have to read correctly in Bangla
+and English, and networks where a visitor's IP changes between two requests.
 
 ---
 
-## Tech Stack
+## What I have built
 
-**Frontend**
+### [Resort Mela](https://resortmela.com) — multi-tenant resort management SaaS
+`NestJS` · `Next.js` · `TypeScript` · `MySQL`
 
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=flat-square&logo=vuedotjs&logoColor=4FC08D)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
-![Redux](https://img.shields.io/badge/Redux-593D88?style=flat-square&logo=redux&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+Bookings, front desk, restaurant, expenses, payroll, agent commissions and the reports an
+owner reads on their phone at the end of the day — sold on subscription to resort owners
+and travel agencies, each on their own plan.
 
-**Backend**
+The part worth stating: a room cannot be sold twice. Not *should not* — every room-night is
+a row under a unique constraint, so two people booking the same room at the same moment get
+exactly one success between them, decided by the database rather than by a check that two
+requests can both pass. 759 API tests and 117 front-end tests hold it in place, and the
+revenue grid matches the hand-kept books to 98.9%.
 
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+### [PEPS BD](https://pepsbd.com) — AML and PEP compliance screening
+`Laravel` · `PostgreSQL` · `React` · `Redis` · `Docker`
 
-**Databases & Cloud**
+Banks and financial institutions in Bangladesh screen their customers against a curated
+database of politically exposed persons, with profiles linked to the news and media
+exposure that explains why someone is on the list. Three tiers — super admin, organisation,
+end user — with per-role permissions a bank's own admin can set, and case management on
+top: search, bookmark, assign, track.
 
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+Built and maintained end to end by one engineer, from an empty database to a subscription
+product in production.
 
----
+### [RootMail](https://rootmail.rootcodebd.com) — email marketing on its own mail server
+`Next.js` · `TypeScript` · `PostgreSQL` · `Node.js` · `Linux`
 
-## Projects
+Campaigns, automations, segments and analytics for Bangladeshi businesses, sending from a
+mail server I run rather than a reseller's — customer domains signed with their own DKIM
+keys, an SMTP gateway and API for transactional mail, priced in Taka and paid through
+bKash and Nagad.
 
-### [PEPS BD](https://pepsbd.com) — AML & PEP Compliance SaaS
-`Laravel` `MySQL` `Multi-Tenant` `ACL` `RegTech`
+### [Nobodigonto](https://nobodigonto.news) — bilingual news portal and newsroom
+`Laravel` · `React` · `Tailwind CSS` · `PHP`
 
-A live B2B SaaS platform subscribed to by banks and financial institutions in Bangladesh for Anti-Money Laundering and Politically Exposed Person screening. Built and maintained entirely solo.
+A Bangla and English news portal — reader site, e-paper and archive — with a newsroom
+behind it: seven dashboards, one for every editorial role from reporter to
+editor-in-chief, across ten page types.
 
-- Three-tier multi-tenant architecture: super admin, organisation, and end-user layers
-- Fine-grained ACL allowing bank admins to define permissions per user and role
-- Full case management: search, bookmark, assign, status tracking
-- PEP profiles linked to news and media exposure sources for compliance context
+### Globex Education — CRM, HRM and ERP in one system
+`Laravel` · `MySQL` · `Vue.js` · `Redis`
 
----
+The full student lifecycle for a visa and overseas education consultancy: leads captured
+straight from Facebook and Instagram campaigns, through counselling and payments, to visa
+approval — with SMS at the steps that matter and role-based access for admins, counsellors
+and agents.
 
-### Globex Education — CRM / HRM / ERP
-`Laravel` `MySQL` `Meta Instant Form API` `SMS Integration` `RBAC`
+### [Toteddy Shop](https://toteddyshop.com) — e-commerce with two physical branches
+`Laravel` · `Pathao Courier API` · `Payment Gateway`
 
-End-to-end student lifecycle management system for a visa and overseas education consultancy. Handles lead capture from Facebook and Instagram ad campaigns through to visa approval tracking, with automated SMS notifications and role-based access for admins, counsellors, and agents.
+A live Bangladeshi store with retail branches in Dhaka: courier handover automated through
+Pathao, payment confirmation driven by webhooks rather than polling, and an affiliate
+system on top.
 
----
+### [riaznur.com](https://riaznur.com) — this profile's longer half
+`Next.js` · `TypeScript` · `PostgreSQL` · `Docker` · `Caddy`
 
-### [Toteddy Shop](https://toteddyshop.com) — E-Commerce Platform
-`Laravel` `Pathao Courier API` `Payment Gateway` `Affiliate System`
-
-Ongoing development for a live Bangladeshi e-commerce platform with two physical retail branches in Dhaka. Integrated Pathao Courier for automated logistics, webhook-driven payment confirmation, and performance improvements across product listing and checkout flows.
-
----
-
-### [Resort Mela](https://resortmela.com) — Multi-Tenant Resort Management SaaS
-`NestJS` `Next.js` `TypeScript` `MySQL` `Multi-Tenant`
-
-Bookings, front desk, restaurant, expenses, payroll, agent commissions and reporting for resorts, sold on subscription to resort owners and travel agencies. Every room-night is a row under a unique constraint, so a double booking is refused by the database rather than by a check two requests can both pass.
-
----
-
-### [RootMail](https://rootmail.rootcodebd.com) — Email Marketing on Its Own Mail Server
-`Next.js` `TypeScript` `PostgreSQL` `Node.js` `Linux`
-
-Campaigns, automations, segments and analytics for Bangladeshi businesses — self-hosted sending with customer DKIM signing, an SMTP gateway and API for transactional mail, priced in Taka and paid through bKash and Nagad.
+My own site, and the one project whose [source decisions are written up in
+public](https://riaznur.com/blog): every word of it editable from a custom admin,
+self-hosted on a VPS with a deploy that rolls itself back, and an AI assistant that answers
+only from the site's own published rows — so it cannot invent a client, a number or a year.
 
 ---
 
-### [Nobodigonto](https://nobodigonto.news) — Bilingual News Portal & Newsroom
-`Laravel` `React` `Tailwind CSS` `PHP`
+## How I work
 
-A Bangla and English news portal: the reader-facing site, e-paper and archive, plus a newsroom dashboard with a screen for every editorial role from reporter to editor-in-chief.
-
----
-
-## GitHub Stats
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=riazbd&theme=tokyonight&hide_border=true" />
-</div>
+- **You own the code from the first commit.** The repository is in your account, the
+  servers and third-party services are in your name, and nothing is licensed back to me.
+- **Fixed price when the shape is clear**, so you are not carrying the risk of my estimate
+  being wrong. Hourly or monthly when the next step depends on what the last one taught us.
+- **A short paid review first** on existing codebases: what is there, what is risky, what
+  it would take. Useful on its own even if you hand it to someone else afterwards.
+- **I work with your team, your process and your repository** when there is one.
 
 ---
 
-## A Note on Public Activity
+## Stack
 
-Most of my work over the last 4 years has been on private repositories — company codebases, client projects, and proprietary products that cannot be open-sourced. This is fairly standard for engineers working inside product companies and agencies.
+Laravel and PHP, Node.js with NestJS and Express, TypeScript everywhere it fits.
+React, Next.js, Vue, Tailwind. PostgreSQL and MySQL, Redis where it earns its place.
+Docker, Caddy, GitHub Actions, Linux servers I administer myself.
 
-The public repos here are experiments, learning projects, and old work. The production systems I have built — a multi-tenant SaaS, a full ERP, a live e-commerce platform — all sit behind private repos or are deployed as closed products.
-
-If you want to see how I approach a problem, feel free to reach out. I am happy to walk through past work in detail.
+Strongest where the schema meets the interface — I am as comfortable designing the indexes
+as building the screen that reads them, and most interesting problems live on that border.
 
 ---
 
-## Experience
+## Where I have worked
 
 | Period | Role | Company |
 |--------|------|---------|
 | Jan 2025 – Present | Software Engineer | MHS Planet, Dhaka |
-| Oct 2023 – Nov 2024 | Software Engineer | Solruf India (Remote) |
-| Nov 2022 – Nov 2023 | Full-Stack Developer | Dream Driver IT Solutions, Netherlands (Remote) |
+| Oct 2023 – Nov 2024 | Software Engineer | Solruf India (remote) |
+| Nov 2022 – Nov 2023 | Full-Stack Developer | Dream Driver IT Solutions, Netherlands (remote) |
 | Sep 2021 – Oct 2022 | Junior Software Engineer | Shiny Gleam Softwares, Dhaka |
 
----
-
-## Measurable Impact
-
-| Result | How |
-|--------|-----|
-| 40% reduction in page load time | Dynamic imports, lazy loading, code splitting, Next.js Image optimisation |
-| 30% fewer production UI bugs | Improved QA processes and pre-release checklists |
-| 35% faster API response times | Resolved N+1 queries, added missing database indexes |
-| 25% improvement in team code quality | Structured code reviews over two quarters |
-| 20% faster front-end feature delivery | Reusable component libraries and documented coding standards |
+Five years, across teams in Bangladesh, India and the Netherlands.
 
 ---
 
-## Contact
+## About the repositories here
 
-[riaznur.com](https://riaznur.com) &nbsp;|&nbsp; hello@riaznur.com &nbsp;|&nbsp; nuruddinriaz5@gmail.com &nbsp;|&nbsp; +880 1521 323426 &nbsp;|&nbsp; Dhaka, Bangladesh
+Nearly everything above is private or closed — client codebases and products that cannot be
+opened. What is public here is older and smaller than what I do now. If you want to see how
+I think about a problem, the write-ups at [riaznur.com/blog](https://riaznur.com/blog) are
+the real answer, and I am glad to walk through any of this in detail.
+
+---
+
+**Open to freelance work — one project at a time — and to the right full-time role.**
+
+[riaznur.com](https://riaznur.com) · hello@riaznur.com · nuruddinriaz5@gmail.com · +880 1521 323426 · Dhaka, Bangladesh
