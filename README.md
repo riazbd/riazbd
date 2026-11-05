@@ -1,10 +1,11 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Md.+Nur+Uddin+Riaz;Full-Stack+Software+Engineer;React+%2F+Next.js+%2F+Laravel+%2F+Node.js" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Nur+Uddin+Riaz;Full-Stack+Software+Engineer;React+%2F+Next.js+%2F+Laravel+%2F+Node.js" alt="Typing SVG" />
 
 <br/>
 
 <a href="mailto:nuruddinriaz5@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="https://riaznur.com"><img src="https://img.shields.io/badge/Portfolio-riaznur.com-7c3aed?style=for-the-badge&logo=firefox&logoColor=white"/></a>
 <a href="https://pepsbd.com"><img src="https://img.shields.io/badge/Live%20Product-pepsbd.com-0ea5e9?style=for-the-badge&logo=vercel&logoColor=white"/></a>
 <img src="https://komarev.com/ghpvc/?username=riazbd&style=for-the-badge&color=0ea5e9&label=Profile+Views"/>
 
@@ -14,13 +15,16 @@
 
 ## About
 
-Full-Stack Software Engineer based in Dhaka, Bangladesh with 4+ years of professional experience across Bangladesh, India, and the Netherlands.
+Full-Stack Software Engineer based in Dhaka, Bangladesh with 5+ years of professional experience across Bangladesh, India, and the Netherlands.
 
 Most of my work has been product-focused rather than open-source — I am the sole developer of [PEPS BD](https://pepsbd.com), a live B2B SaaS platform for AML and PEP compliance screening used by banks and financial institutions in Bangladesh. I took it from an empty database to a subscription-based, multi-tenant product running in production — handling architecture, backend, frontend, deployment, and ongoing maintenance on my own.
+
+Longer write-ups of this work, with the decisions and the numbers, are at **[riaznur.com](https://riaznur.com)**.
 
 ```
 Location         Dhaka, Bangladesh
 Availability     Open to new opportunities — remote or on-site
+Portfolio        https://riaznur.com
 Currently        Deepening TypeScript and system design
 ```
 
@@ -84,6 +88,27 @@ Ongoing development for a live Bangladeshi e-commerce platform with two physical
 
 ---
 
+### [Resort Mela](https://resortmela.com) — Multi-Tenant Resort Management SaaS
+`NestJS` `Next.js` `TypeScript` `MySQL` `Multi-Tenant`
+
+Bookings, front desk, restaurant, expenses, payroll, agent commissions and reporting for resorts, sold on subscription to resort owners and travel agencies. Every room-night is a row under a unique constraint, so a double booking is refused by the database rather than by a check two requests can both pass.
+
+---
+
+### [RootMail](https://rootmail.rootcodebd.com) — Email Marketing on Its Own Mail Server
+`Next.js` `TypeScript` `PostgreSQL` `Node.js` `Linux`
+
+Campaigns, automations, segments and analytics for Bangladeshi businesses — self-hosted sending with customer DKIM signing, an SMTP gateway and API for transactional mail, priced in Taka and paid through bKash and Nagad.
+
+---
+
+### [Nobodigonto](https://nobodigonto.news) — Bilingual News Portal & Newsroom
+`Laravel` `React` `Tailwind CSS` `PHP`
+
+A Bangla and English news portal: the reader-facing site, e-paper and archive, plus a newsroom dashboard with a screen for every editorial role from reporter to editor-in-chief.
+
+---
+
 ## GitHub Stats
 
 <div align="center">
@@ -127,4 +152,4 @@ If you want to see how I approach a problem, feel free to reach out. I am happy 
 
 ## Contact
 
-nuruddinriaz5@gmail.com &nbsp;|&nbsp; +880 1521 323426 &nbsp;|&nbsp; Dhaka, Bangladesh
+[riaznur.com](https://riaznur.com) &nbsp;|&nbsp; hello@riaznur.com &nbsp;|&nbsp; nuruddinriaz5@gmail.com &nbsp;|&nbsp; +880 1521 323426 &nbsp;|&nbsp; Dhaka, Bangladesh
